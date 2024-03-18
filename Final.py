@@ -2,6 +2,7 @@ import aiohttp
 import asyncio
 import time
 
+# in discord Hold CTRL + SHIFT + I
 # url Text Channel = Network -> Headers -> General -> Request URL
 url = ""
 
