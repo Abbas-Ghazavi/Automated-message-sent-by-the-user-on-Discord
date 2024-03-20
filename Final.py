@@ -1,3 +1,4 @@
+#Importing lib python
 import aiohttp
 import asyncio
 import time
@@ -9,7 +10,7 @@ url = ""
 headers = {
     "Content-Type": "application/json",
 
-    # Network -> Headers -> Request Headers -> 8(Authorization)
+    # Network -> Headers -> Request Headers -> 8(Authorization) (Need Key discord Personal)
     "Authorization": "",
 }
 
@@ -31,6 +32,7 @@ async def main():
 
                 for message, ping_time in results:
                     content = message[0].get("content", "")
+                    
                     # Network -> Payload -> content
                     if "" in content:
                         reply_payload = {
