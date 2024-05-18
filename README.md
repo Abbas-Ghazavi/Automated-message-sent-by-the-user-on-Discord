@@ -1,11 +1,8 @@
 # Discord Auto-Responder Bot
 
-This Python script is a basic Discord bot that automatically responds to messages in a specified text channel based on content.
+This Python script is an older version of a basic Discord bot that automatically responds to messages in a specified text channel based on content. The new version is much more optimized and faster, but it is currently private.
 
-
-https://github.com/Abbas-Ghazavi/Sending-messages-automatically-based-on-mentions-in-Discord/assets/118556497/613b7f9a-f750-491a-8b43-7b56d269728c
-
-
+[Link to the asset](https://github.com/Abbas-Ghazavi/Sending-messages-automatically-based-on-mentions-in-Discord/assets/118556497/613b7f9a-f750-491a-8b43-7b56d269728c)
 
 ## Prerequisites
 
