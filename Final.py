@@ -2,14 +2,12 @@ import aiohttp
 import asyncio
 import time
 
-# in discord Hold CTRL + SHIFT + I
-# url Text Channel = Network -> Headers -> General -> Request URL
 url = ""
 
 headers = {
     "Content-Type": "application/json",
 
-    # Network -> Headers -> Request Headers -> 8(Authorization) (Need Key discord Personal)
+    #(Authorization) (Need Key discord Personal)
     "Authorization": "",
 }
 
